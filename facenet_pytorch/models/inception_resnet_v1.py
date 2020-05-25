@@ -29,7 +29,6 @@ class BasicConv2d(nn.Module):
         x = self.relu(x)
         return x
 
-
 class Block35(nn.Module):
 
     def __init__(self, scale=1.0):
